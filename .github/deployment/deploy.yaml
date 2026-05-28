@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: bank-backend-container
-        image: supportcloud160/bank-app-backend:b219162  # Replace this with your Docker image name
+        image: 796951667961.dkr.ecr.us-east-1.amazonaws.com/bank-backendapi:latest  # Replace this with your Docker image name
         ports:
         - containerPort: 8080  # Replace with your app's port if necessary
         env:
